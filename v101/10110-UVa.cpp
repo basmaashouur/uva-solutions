@@ -8,6 +8,8 @@ even divisors then the light is off means we turn it on/off until it's off but i
 if we try to find the divsors using brute force we will git TLE, so we only need to know if the number
 of divisor is odd or even, and there is a fact saying that the perfect sequare has odd divsors, so we only should find
 if it's perfect sequare or not.
+
+For a given number n we can group its divisors in pairs (d,nd), except that if n=m^2 this would pair m with itself.
 */
 
 
